@@ -1,0 +1,104 @@
+/** @format */
+
+body {
+    background-color: black;
+}
+
+.start {
+    margin: auto;
+    margin-top: 20%;
+    width: 350px;
+    height: 60px;
+    border-radius: 10px;
+    background-color: red;
+    color: blue;
+  text-align: center;
+  font-family: fantasy;
+  font-size: xxx-large;
+  cursor: pointer;
+}
+
+.restart {
+    display: none;
+    position: relative;
+    margin: auto;
+    margin-top: 10%;
+    height: 400px;
+    width: 600px;
+    background-color: bisque;
+    background-image: url('https://media.istockphoto.com/photos/blank-daily-newspaper-picture-id503149471?k=20&m=503149471&s=612x612&w=0&h=vVY5HcbK_-OYJqTsNjZAHFCxil6jaQMVLaypgN_uWDk=');
+}
+
+.restart h2{
+    display: block;
+    margin-top: 50px;
+
+
+}
+
+.boardgame {
+  display: none;
+  margin: auto;
+  /* height: 616px; */
+  width: 588px;
+  background-color: green;
+  border: 10px ridge rgb(170, 54, 0);
+  border-top-style: inset;
+  color: rgb(104, 0, 0);
+}
+
+/* tr {
+    height:;
+    width: auto;
+} */
+
+td {
+  height: 40px;
+  width: 40px;
+  text-align: center;
+}
+
+.kiev {
+  background-color: yellow;
+  color: blue;
+}
+
+.suburbs {
+  background-color: blue;
+  color: yellow;
+}
+
+.details {
+  display: none;
+  margin: auto;
+  border: 10px ridge rgb(170, 54, 0);
+  border-bottom: 0px;
+  height: 30px;
+  background-color: rgb(9, 83, 9);
+  width: 588px;
+  text-align: center;
+
+  /* margin-bottom: 20px; */
+}
+
+h2 {
+  font-family: fantasy;
+  margin: auto;
+}
+
+.alert {
+  display: none;
+  margin-top: 10px;
+  margin-left: 20%;
+  border: 2px dotted black;
+  height: 25px;
+  width: 250px;
+  background-color: red;
+  text-align: center;
+  color: blue;
+}
+
+.lives {
+  color: red;
+}
+
